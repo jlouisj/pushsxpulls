@@ -1,18 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 
 * {
-  font-family: "Jersey 25", sans-serif;
+  font-family: 'Jersey 25', sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: black;
   color: limegreen;
 }
+.container {
+  margin: auto;
+}
 .main-header {
   text-align: center;
+  margin-top: 50px;
 }
 ul {
   list-style: none;
 }
 .main-section {
-    text-align: center;
+  text-align: center;
+}
+.project-card {
+  width: 33%;
+  float: left;
+  margin-top: 200px;
+}
+.project-title {
 }
