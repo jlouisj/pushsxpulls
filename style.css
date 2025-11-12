@@ -20,10 +20,12 @@ ul {
 .main-section {
   text-align: center;
 }
+#project-cards {
+  margin-top: 400px;
+}
 .project-card {
-  width: 33%;
-  float: left;
   margin-top: 200px;
+  display: inline;
 }
 /* .project-title {
 } */
@@ -33,6 +35,6 @@ ul {
   border: 5px;
 }
 .progress-meter {
-  width: 50%;
+  width: 15%;
   margin-top: 0px;
 }
