@@ -2,39 +2,16 @@
 
 * {
   font-family: 'Jersey 25', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: black;
-  color: limegreen;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-  margin: auto;
-}
-.main-header {
+  display: flex;
   text-align: center;
-  margin-top: 50px;
-}
-ul {
-  list-style: none;
+  margin: 50px auto;
+  max-width: 50%;
 }
 .main-section {
-  text-align: center;
-}
-#project-cards {
-  margin-top: 400px;
-}
-.project-card {
-  margin-top: 200px;
-  display: inline;
-}
-/* .project-title {
-} */
-.project-desc {
-  height: 100px;
-  text-align: center;
-  border: 5px;
-}
-.progress-meter {
-  width: 15%;
-  margin-top: 0px;
+  margin-top: 50px;
 }
